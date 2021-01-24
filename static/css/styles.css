@@ -1,0 +1,84 @@
+
+
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+
+.key-image {
+    margin-top: 7%;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.quote-meaning {
+    font-size: 1rem;
+}
+
+.swe-connect {
+    font-size: 1rem;
+}
+
+body {
+        background-color: white;
+    }
+
+    .interactive-image {
+        display: none;
+    }
+
+    .standard-image {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        background-size: contain;
+
+}
+
+
+@media only screen and (min-width: 992px) {
+   
+
+    .standard-image {
+        display: none;
+    }
+
+    /*.interactive-image {
+        display: block;
+        background: url("images/world-map-3.jpg"); 
+        width: 1920px;
+        height: 1200px;
+    }*/
+
+    .interactive-image {
+        display: block;
+        background: url("../images/world-map-1.png");
+        width: 820px;
+        height: 375px;
+    }
+
+    .interactive-image .text-item {
+        background-color: #CFA919;
+        color: black;
+    }
+
+    .swe-connect {
+        font-size: 1.2rem;
+    }
+
+p {
+    font-size: 2rem;
+}
+}
+
+
+
+    
+
+
+
+
+
+
+
